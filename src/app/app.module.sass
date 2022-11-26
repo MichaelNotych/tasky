@@ -1,0 +1,37 @@
+.dashboard
+    background-color: #F8ECDF
+    width: 100%
+    height: 100vh
+    padding: 40px 0
+    display: flex
+    align-items: flex-start
+    justify-content: flex-start
+    flex-direction: column
+
+    &__title
+        padding: 0 40px
+
+    &__table
+        display: flex
+        align-items: flex-start
+        width: 100%
+        overflow-x: auto
+        overflow-y: hidden
+        padding-bottom: 30px
+
+    &__logo
+        display: inline-block
+        margin: 0 auto 20px
+
+    &__space
+        width: 40px
+        min-width: 40px
+
+    &__noactionlayer
+        position: fixed
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.5)
+        z-index: 10
